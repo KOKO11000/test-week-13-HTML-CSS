@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <p>Hello world</p>
+    <header class="Top-navigation-bar">
+        <img id="gpt-icon" src="./images/chatgpt-icon.png" alt="icon ChatGPT">
+        <span id="gpt-text">ChatGPT <img id="icon-arrow" src="./images/icon-expand-arrow.png" alt="Icon arrow"></span>
+        <header class="Centered-navigation-text">
+            <span>About</span>
+            <span>Features</span>
+            <span>Learn</span>
+            <span>Business</span>
+            <span>Pricing</span>
+            <span><a href="./images.html">Images</a></span>
+            <span>Download</span>
+        </header>
+        <section class="buttons">
+            <button id="log-in">Log in</button>
+            <button id="sign-up">Sign up for free</button>
+            <button id="info">?</button>
+        </section>
+    </header>
+
+    <main class="the-main">
+        <h1>What's on the agenda today?</h1>
+        <section class="input-area">
+            <input id="input-cli" type="text" placeholder="|Ask anything">
+            <button class="button-text" id="icon-attach"> <img  src="./images/icons8-attach-26.png" alt="attach"><span>Attach</span></button>
+            <button class="button-text" id="icon-search"> <img  src="./images/icons8-globe-50.png" alt="globe"><span>Search</span></button>
+            <button class="button-text" id="icon-book"> <img  src="./images/icons8-book-50.png" alt="book"><span>Study</span></button>
+            <button class="button-text" id="icon-image"> <img  src="./images/icons8-image-gallery-48.png" alt="gallery images"><span>Create image</span></button>
+            <button class="button-text" id="icon-voice"> <img  src="./images/icons8-ai-generated-sound-50.png" alt="voice"><span>Voice</span></button>
+
+        </section>
+    </main>
+
+
 </body>
+
 </html>
