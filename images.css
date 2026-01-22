@@ -1,0 +1,67 @@
+body{
+    border: 1px solid black;
+    height: 100vh;
+    margin: 4px;
+
+}
+.Top-navigation-bar {
+    position: relative;
+    width: 100%;
+}
+
+.Top-navigation-bar #gpt-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.Top-navigation-bar #gpt-text {
+    position: absolute;
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    top: 15px;
+}
+
+.Top-navigation-bar #icon-arrow {
+    width: 15px;
+}
+
+.Top-navigation-bar .Centered-navigation-text{
+    display: inline;
+    position: absolute;
+    left: 33%;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    top: 20px;
+}
+
+.Top-navigation-bar .buttons{
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 1%;
+
+}
+.buttons #log-in{
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.buttons #sign-up{
+    height: 30px;
+    background-color: white;
+    border: 1px solid black ;
+    border-radius: 30px;
+}
+.buttons #info{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}

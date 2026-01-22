@@ -1,0 +1,118 @@
+body{
+    border: 1px solid black;
+    height: 100vh;
+    margin: 4px;
+
+}
+.Top-navigation-bar {
+    position: relative;
+    width: 100%;
+}
+
+.Top-navigation-bar #gpt-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.Top-navigation-bar #gpt-text {
+    position: absolute;
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    top: 15px;
+}
+
+.Top-navigation-bar #icon-arrow {
+    width: 15px;
+}
+
+.Top-navigation-bar .Centered-navigation-text{
+    display: inline;
+    position: absolute;
+    left: 33%;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    top: 20px;
+}
+
+.Top-navigation-bar .buttons{
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 1%;
+
+}
+.buttons #log-in{
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.buttons #sign-up{
+    height: 30px;
+    background-color: white;
+    border: 1px solid black ;
+    border-radius: 30px;
+}
+.buttons #info{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.the-main{
+    margin: 15% 33.3% 33.3% 33.3% ;
+    width: 100%;
+}
+.the-main h1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 7%;
+
+}
+.input-area{
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    height: 90px;
+    width: 35%;
+    box-shadow: 0px 4px 4px 0px lightgray;
+}
+.input-area input{
+    width: 96%;
+    height: 50px;
+    margin-left: 10px;
+    border: 0px;
+    
+}
+.input-area button{
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: white
+}
+
+.input-area img{
+    width: 20px;
+    height: 20px;
+}
+
+.button-text span{
+    position: relative;
+    width: 50px ;
+    bottom: 5px;
+    left: 2px;
+    
+}
+
+#icon-voice{
+    position: relative;
+    
+
+    
+}
+
