@@ -1,9 +1,10 @@
-body{
+body {
     border: 1px solid black;
     height: 100vh;
     margin: 4px;
 
 }
+
 .Top-navigation-bar {
     position: relative;
     width: 100%;
@@ -28,7 +29,7 @@ body{
     width: 15px;
 }
 
-.Top-navigation-bar .Centered-navigation-text{
+.Top-navigation-bar .Centered-navigation-text {
     display: inline;
     position: absolute;
     left: 33%;
@@ -40,28 +41,91 @@ body{
     top: 20px;
 }
 
-.Top-navigation-bar .buttons{
+.Top-navigation-bar .buttons {
     display: inline;
     position: absolute;
     top: 15px;
     right: 1%;
 
 }
-.buttons #log-in{
+
+.buttons #log-in {
     height: 30px;
     color: white;
     background-color: black;
     border: 1px solid black;
     border-radius: 30px;
 }
-.buttons #sign-up{
+
+.buttons #sign-up {
     height: 30px;
     background-color: white;
-    border: 1px solid black ;
+    border: 1px solid black;
     border-radius: 30px;
 }
-.buttons #info{
+
+.buttons #info {
     background-color: white;
     border: 1px solid black;
     border-radius: 50px;
+}
+
+.main-images {
+    position: relative;
+    margin: 10% 347px 15% 20%;
+}
+
+.main-images h1 {
+    font-size: 60px;
+    padding-bottom: 100px;
+}
+
+.main-images h2 {
+    display: inline;
+    font-size: xx-large;
+}
+
+.main-images #less-than {
+    position: relative;
+    left: 65%;
+    width: 25px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    box-shadow: none;
+}
+
+.main-images #bigger-than {
+    position: relative;
+    left:65%;
+    width: 25px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    box-shadow: none;
+
+}
+
+.main-images a {
+    display: block;
+}
+
+.main-images img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px 0px black;
+}
+
+div {
+    display: inline-block;
+}
+
+.gallery-item {
+    margin: 15px;
+}
+.desc{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    /* padding-left: 70px; */
 }
